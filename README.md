@@ -4,7 +4,7 @@
 
 ## Project Summary
 
-The core insight was that mathematics beats machine learning for this problem. The IV surface is a smooth, analytically-defined manifold — trying to approximate it with tree-based step functions introduces unnecessary variance. The best approach uses a Regime-Switching Pure Quant Interpolator: a Natural Cubic Spline for normal days, and Linear Interpolation on Expiry Day.
+The core insight was that mathematics beats machine learning for this problem. The IV surface is a smooth, analytically-defined manifold trying to approximate it with tree-based step functions introduces unnecessary variance. The best approach uses a Regime-Switching Pure Quant Interpolator: a Natural Cubic Spline for normal days, and Linear Interpolation on Expiry Day.
 
 ## Directory Structure
 1. IV_Surface_Solution.ipynb contains all code and explanation for EDA and the approaches used to compute missing IV values

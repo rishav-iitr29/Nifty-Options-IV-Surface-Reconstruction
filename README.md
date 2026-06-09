@@ -1,4 +1,4 @@
-# NIFTY 50 Implied Volatility Surface Reconstruction
+# NIFTY Options IV Surface Reconstruction
 
 The objective of this project was to reconstruct missing Implied Volatility (IV) values in a NIFTY 50 options chain dataset. Each row represents a 5-minute snapshot of the full option chain spanning the January 2026 expiry cycle (07 Jan - 27 Jan 2026). Approximately 20% of IV values were missing and needed to be imputed without using any future information (no lookahead bias).
 
